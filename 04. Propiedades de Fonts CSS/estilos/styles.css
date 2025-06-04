@@ -1,0 +1,23 @@
+/*font basicas*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Fonts externas*/
+/*@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+p{
+    font-family: "Comic Neue", cursive;
+}*/
+
+
+/*fonts descargadas*/
+@font-face {
+    font-family: "Comic Neue";
+    src: url(comicneue.ttf);
+}
+
+p{
+    font-family: "Comic Neue", cursive;
+}
+
