@@ -1,0 +1,22 @@
+*{
+    background-color: #f3f3e4;
+}
+h1{
+    color: #629;
+}
+
+#PrimerParrafo{
+    color: #484;
+}
+
+.GrupoParrafos{
+    color: #24f;
+}
+
+h1:hover{
+    color: #F00;
+}
+
+input[type="text"] {
+    background: #24f;
+}
