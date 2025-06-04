@@ -1,0 +1,16 @@
+#contenedor p{
+    color: yellow;
+}
+
+#contenedor p:first-child{
+    color: red;
+}
+
+#contenedor p:nth-child(odd){
+    color: green;
+}
+/*El odd se usa para aplicar estilo a los impares y el even para los pares*/
+
+#contenedor p:last-child{
+    color: blue;
+}
