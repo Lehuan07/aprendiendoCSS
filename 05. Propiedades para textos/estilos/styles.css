@@ -1,0 +1,25 @@
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+
+    /*Espaciado de letras*/
+    /*letter-spacing: 20px;
+
+    /*Espaciado de palabras*/
+    /*word-spacing: 100px;
+
+    /*Interlineado*/
+    /*line-height: 50px;*/
+
+    /*Sangria*/
+    /*text-indent: 100px;
+
+    /*Alineacion de texto*/
+    text-align: center;
+    text-align: left;
+    text-align: right;
+
+}
