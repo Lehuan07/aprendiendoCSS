@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+    color: #000;
+}
+
+.cajita{    
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.parrafoDeCaja{
+    text-align: center;
+    font-size: 1.1em;
+    color: #000;
+}
+
+.parrafoFueraDeCaja{
+    text-align: left;
+    font-size: 1.1em;
+    color: #000;
+    margin: 1em;
+}
