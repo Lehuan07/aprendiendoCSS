@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Tauri:regular);
+
+.titulo{
+    font-size: 2.5em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;  
+    font-family: 'Tauri', sans-serif;
+}
+
+.colorconpalabra{
+    width: 12.5em;
+    height: 12.5em;
+    background-color: red;
+    margin-bottom: 2%;
+}
+
+.colorconhexa{
+    width: 12.5em;
+    height: 12.5em;
+    background-color: #0a95b8;
+    margin-bottom: 2%;
+}
+
+.colorconrgb{
+    width: 12.5em;
+    height: 12.5em;
+    background-color: rgb(26, 255, 5);
+    margin-bottom: 2%;
+}
+
+.coloreandoconhsl{
+    width: 12.5em;
+    height: 12.5em;
+    background-color: hsl(250deg, 30%, 50%);
+    margin-bottom: 2%;
+}
+
+.coloreandocontransparencia{
+    width: 12.5em;
+    height: 12.5em;
+    background-color: #0a95b820;
+    margin-bottom: 2%;
+}
+
+.coloreandocondegradado{
+    width: 12.5em;
+    height: 12.5em;
+    background: linear-gradient(120deg, #f00, #00f);
+    margin-bottom: 2%;
+}
