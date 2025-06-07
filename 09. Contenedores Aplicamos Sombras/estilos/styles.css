@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.titulo{
+    color: #BB0A21;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.7em;
+    text-shadow: 0.2em 0.2em 0.4em #445d68;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    max-height: 500px;
+    background-color: #D3D4D9;
+    margin: auto;
+    margin-top: 3em;
+    padding: 1em;
+    box-shadow: -0.0625em -0.0625em 0.375em 0 #4ba0f5dc, 
+    0.25em 0.25em 1em 0.125em #61ee9c;
+    /*El primer valor es el horizontal, el segundo el vertical, el tercero el desenfoque, el cuarto de amplitud de la sombra y el ultimo el color*/
+}
+
+.parrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+}
