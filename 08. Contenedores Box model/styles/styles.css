@@ -1,0 +1,27 @@
+.title{
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.contenedor{
+    width: 50%;
+    height: 50%;
+    background-color: #dddddd;
+
+    max-width: 70%;
+    min-width: 30%;
+
+    max-height: 70%;
+    min-height: 30%;
+
+
+    padding-top: 1.25em;
+    padding-left: 1.875em;
+    padding-right: 3.125em;
+    padding: 5em 3.75em 1.25em 2.1875em;
+    border: 0.625em solid #000;
+    border-radius: 30px;
+    margin: 3% 5% 1.7% 2%;
+}
