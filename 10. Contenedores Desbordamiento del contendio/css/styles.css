@@ -1,0 +1,35 @@
+.titulo{
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.parrafo{
+    margin: 0;
+}
+
+.desbordamiento{
+    width: 200px;
+    height: 200px;
+    background-color: #ffbd39;
+    overflow: auto;
+}
+/*El overflow:hidden oculta el contenido que se sale del contenedor*/
+
+/*El overflow:scroll muestra barras de desplazamiento si el contenido se sale del contenedor*/
+
+/*El overflow:auto LA MAS USADA muestra barras de desplazamiento si el contenido se sale del contenedor, pero solo si es necesario*/
+
+/*El overflow:visible no oculta el contenido que se sale del contenedor es el que viene por defecto*/
+
+.despliegue{
+    column-count: 3;
+    column-gap: 5em;
+    column-rule: 2px solid #333;
+}
+/*El column-count divide el contenido en columnas*/
+/*El column-gap establece la separación entre columnas*/
+/*El column-rule establece una línea entre columnas*/
+
