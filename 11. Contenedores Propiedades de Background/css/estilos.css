@@ -1,0 +1,98 @@
+.titulo{
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 3vw;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitulo{
+    font-size: 1.5em;
+    color: #4b4444;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedorFondoPlano{
+    margin: auto;
+    width: 20%;
+    max-width: 30%;
+    height: 20%;
+    max-height: 30%;
+    padding: 20%;
+    border: 1px solid #ccc;
+    background-color: #0391cb  ;
+}
+
+.contenedorFondoDegradado{
+    margin: 2em auto;
+    width: 20%;
+    max-width: 30%;
+    height: 20%;
+    max-height: 30%;
+    padding: 20%;
+    border: 1px solid #ccc;
+    background: linear-gradient(90deg, #0391cb 10%, #ffffff 100%);
+}
+
+.contenedorFondoDegradadoRadial{
+    margin: 2em auto;
+    width: 10vw;
+    max-width: 30%;
+    height: 10vw;
+    max-height: 30%;
+    padding: 20%;
+    border-radius: 0 90% 0 90%;
+    border: 1px solid #ccc;
+    background: radial-gradient(circle, #0391cb 10%, #ffffff 100%);
+}
+
+.contenedorConImagenDeFondo{
+    margin: 2em auto;
+    width: 10vw;
+    max-width: 30%;
+    height: 10svw;
+    border-radius: 0 50% 50% 0;
+    max-height: 30%;
+    padding: 20%;
+    border: 1px solid #ccc;
+    background-image: url('/img/ala\ de\ avion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /*tambien se puede hacer de la siguiente manera*/
+    background: #000 url('/img/ala\ de\ avion.jpg') no-repeat  center cover fixed;
+}
+/*background-image es la propiedad que se encarga de asignar una imagen de fondo a un elemento.*/
+/*background-size es la propiedad que se encarga de ajustar el tamaño de la imagen de fondo.*/
+/*background-repeat es la propiedad que se encarga de repetir la imagen de fondo.*/
+/*background-position es la propiedad que se encarga de ajustar la posición de la imagen de fondo.*/
+/*background-attachment es la propiedad que se encarga de fijar la imagen de fondo, IDEAL PARA HACER SCROLL CON FIXED.*/ 
+
+.contenedorSuperpuesto1 {
+    position: relative; /* Contenedor padre */
+    margin: 2em auto;
+    width: 10vw;
+    max-width: 30%;
+    height: 10vw;
+    max-height: 30%;
+    border-radius: 10%;
+    padding: 20%;
+    border: 1px solid #ccc;
+    background: #000 url(/img/pikachu.jpg) no-repeat center/cover;
+}
+
+.contenedorSuperpuesto2 {
+    position: absolute; /* Se superpone dentro del padre */
+    border-radius: 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(158, 9, 9, 0.7); /* Capa semitransparente */
+    z-index: 2; /* Asegura que esté encima */
+}
+
