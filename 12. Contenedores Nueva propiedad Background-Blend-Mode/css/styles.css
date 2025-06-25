@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee+Spice:regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee Spice', cursive;
+}
+.Titulo{
+    text-align: center;
+    font-size: 2em;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaXNhamV8ZW58MHx8MHx8fDA%3D), url(https://i.pinimg.com/736x/ac/53/c7/ac53c746c0b570df28f47c53f84657e6.jpg), linear-gradient(#cdfa52, #261175);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+/*background-blend-mode se usa para mezclar la imagen de fondo con el color de fondo
+la funcion multiply hace mezclar la imagen con coleres.
+Esto se usa mucho con el linear-grandient en la imagen, queda muy bien.
+screen es otro tipo de mezcla que se puede usar, pero no queda tan bien como multiply le pone mucho brillo.
+overlay es otro tipo de mezcla que se puede usar, le pone contraste arriba y abajo.
+darken: es otro tipo de mezcla que se puede usar, le pone contraste a la imagen.
+ligthen: es otro tipo de mezcla que se puede usar, le pone mucho brillo a la imagen.
+luminosity: es otro tipo de mezcla que se puede usar,pone las imagenes en gris y predomina los colores que elegimos.
+ */
+
