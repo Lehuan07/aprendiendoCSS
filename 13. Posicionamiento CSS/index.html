@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>35. Posicionamiento CSS</title>
+    <link rel="stylesheet" href="/13. Posicionamiento CSS/css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="main_title">Posicionamiento CSS</h1>
+    </header>
+    <section>
+        <h2 class="sub_titulo"> Posicionamientos:</h2>
+        <p class="parrafo">Para entender la explicacion tener en cuenta que el html y CSS esta armado asi:</p>
+        <img src="/13. Posicionamiento CSS/img/html_explicacion.jpg" alt="Imagen del html" title="Asi estan armado cada bloque de los que veras a continuacion en HTML" class="imagenes">
+        <img src="/13. Posicionamiento CSS/img/css_explicacion.jpg" alt="Imagen de como armamos el CSS" title="Asi estan armado cada bloque de los que veras a continuacion en CSS" class="imagenes">
+        <p class="primer_parrafo">El posicionamiento en CSS es la forma en que se colocan los elementos dentro de una pagina web. Existen diferentes tipos de posicionamiento, cada uno con sus propias caracteristicas y usos. A continuacion se describen los principales tipos de posicionamiento:</p>
+        </article>
+    </section>
+
+    <section>
+        <h2 class="sub_title">Elementos en Bloque</h2>
+        <p class="parrafo">Con el display block los divs se alinean uno debajo del otro respetando el ancho y el alto</p>
+        <article class="bloque">
+            <div>UNO</div>
+            <div>DOS</div>
+            <div>TRES</div>
+            <div>CUATRO</div>
+        </article>
+
+        <h2 class="sub_title">Elementos en Linea</h2>
+        <p class="parrafo">Con el display inline los divs se alinean en una sola línea sin respetar el ancho y el alto</p>
+        <article class="linea">
+            <div>UNO</div>
+            <div>DOS</div>
+            <div>TRES</div>
+            <div>CUATRO</div>
+        </article>
+
+        <h2 class="sub_title">Elementos Bloque en Linea</h2>
+        <p class="parrafo">
+            Con el display inline-block los divs se alinean en una sola línea respetando el ancho y el alto. El display inline-block es una mezcla entre el display block y el display inline
+        </p>
+        <article class="linea_block">
+            <div>UNO</div>
+            <div>DOS</div>
+            <div>TRES</div>
+            <div>CUATRO</div>
+        </article>
+
+        <h2 class="sub_title">Elementos en Tabla</h2>
+        <p class="parrafo">Con el display table-cell los divs se alinean en una sola línea respetando el ancho y el alto pero no asi el margen</p>
+        <article class="tabla">
+            <div>UNO</div>
+            <div>DOS</div>
+            <div>TRES</div>
+            <div>CUATRO</div>
+        </article>
+
+        <h2 class="sub_title">Elementos en Posicionamiento general</h2>
+        <p class="parrafo">Tenemos distintos elementos de posicionamiento general, los cuales son:</p>
+        <ul class="lista">
+            <li> <strong>static:</strong> Posicionamiento por defecto, no se le aplica ningun tipo de posicionamiento</li>
+            <br>
+            <li><a href="#relativo">Relative:</a> Posicionamiento relativo, se posiciona en relacion a su posicion original, este posicionamiento se lo damos nosotros. Por ejemplo, <a href="#relativo">éste</a> cuadrado esta corrido 18.75em (Lo que equivale 300px)</li>
+            br
+            <li>Cuando a un elemento le ponés <a href="#absoluto">position: absolute,</a> lo estás sacando del flujo normal del documento. Es decir, el resto de los elementos se comportan como si ese elemento no existiera, y vos lo podés ubicar donde quieras usando las propiedades top, right, bottom y left.
+                <br>
+                Pero ojo:
+                El punto de referencia para mover ese elemento no es siempre toda la pantalla.
+                <br>
+                👉 Se posiciona en relación a su primer ancestro (padre, abuelo, bisabuelo...) que tenga una posición distinta de static.
+                Si no encuentra ninguno, se toma como referencia toda la ventana del navegador (el body o html).</li>
+                <br>
+            <li><a href="#fijo">Fixed:</a>Posicionamiento fijo, se posiciona en relacion a la ventana del navegador, es ideal para anclar elementos y que acompañen el movimiento de la web, como es el caso del cartelito azul muy simpatico que te acompaño hasta ahora <i class="fa-solid fa-face-smile"></i> (Por eso no te lleva a ningun lado cuando haces click en fixed ya que ya lo vez en pantalla)</li>
+            <li><strong>Sticky:</strong> Posicionamiento pegajoso, se posiciona en relacion a su padre mas cercano que tenga un posicionamiento distinto a static y se queda pegado al scroll</li>
+        </ul>
+        <article class="Posicionamiento_general">
+            <div id="relativo" class="relativo">Relativo</div>
+            <div id="absoluto" class="absoluto">Absoluto</div>
+            <div id="fijo" class="fijo">Fijo y molesto</div>
+        </article>
+
+        <h2 class="sub_title">Elementos en Posicionamiento Flotante</h2>
+        <p class="parrafo">Cuando le decimos a los elementos que floten, los organizamos como queremos uno al lado del otro, de izq a derecha y viceversa.
+        <br>
+            Como podemos ver, el dos esta a la derecha y no lo respeta por que con la funcion del segundo hijo en html (: nth-child(2)) le decimos que flote a la derecha y el resto de los elementos lo respetan.
+            <strong>NOTA IMPORTANTE!:</strong> <br>
+            aca se va a desbordar el contenedor al hacerlo responive, ya que e desbordan si no hay un contenedor que los envuelva bien o si los anchos no están controlados. Es por eso que se creo <strong>flexbox</strong> si te interesa interiorizarte mas, mandame un whatsapp al <a href="https://wa.me/5492281313192?text=Hola%20Nahuel%2C%20pásame%20el%20link%20de%20flexbox!" target="_blank">WhatsApp</a>
+        </p>
+        <article class="Posicionamiento_flotante">
+            <div>UNO</div>
+            <div>DOS</div>
+            <div>TRES</div>
+            <div>CUATRO</div>
+        </article>
+    </section>
+
+    <script src="https://kit.fontawesome.com/226c8304e7.js" crossorigin="anonymous"></script>
+</body>
+</html>

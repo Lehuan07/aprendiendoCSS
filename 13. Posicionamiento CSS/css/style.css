@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Liter:regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Liter', sans-serif;
+    background-color: #e7e7e7;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1em 0;
+}
+
+.sub_title{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1vw 0;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.primer_parrafo{
+    text-align: justify;
+    margin: 2em 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.parrafo{
+    text-align: justify;
+    margin: 0.5em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.sub_titulo{
+    margin-left: 0.7em;
+    font-size: 1.5em;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #555;
+    font-weight: 800;  ;
+}
+
+.imagenes{
+    width: 70vw;
+    height: 30vw;
+    margin: 1em auto;
+    display: block;
+}
+
+.lista{
+    margin: 1em;
+    font-size: 1.2em;
+    color: #333;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+strong{
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+article{
+    border: 1px solid #f00;
+    margin-bottom: 6.25em;
+}
+
+div{
+    width: 12.5em;
+    height: 12.5em;
+    margin: 0.625em;
+    line-height: 12.5em;
+    border: 1px solid #00f;
+    text-align: center;
+}
+
+.fa-face-smile{
+    font-size: 1em;
+    color: rgb(202, 206, 0);
+
+}
+
+.bloque{
+    display: block;
+}
+/*Con el display block los divs se alinean uno debajo del otro respetando el ancho y el alto*/
+
+
+.linea div{
+    display: inline;
+}
+/*Con el display inline los divs se alinean en una sola línea sin respetar el ancho y el alto*/
+
+
+.linea_block div{
+    display: inline-block;
+}
+/*Con el display inline-block los divs se alinean en una sola línea respetando el ancho y el alto*/
+/*El display inline-block es una mezcla entre el display block y el display inline*/
+
+
+.tabla div{
+    display: table-cell;
+}
+/*Con el display table-cell los divs se alinean en una sola línea respetando el ancho y el alto pero no asi el margen*/
+
+.Posicionamiento_general .relativo{
+    position: relative;
+    left: 18.75em;
+}
+
+.Posicionamiento_general {
+    position: relative;
+}
+/*Con el position relative se puede mover el elemento con respecto a su posición original lo tuve que poner por que el absoluto buscaba el posicionamiento del body y se iba a la concha de la lora (sacalo y proba)*/
+
+.Posicionamiento_general .absoluto{
+    position: absolute;
+    left: 60%;
+    top: 3%;
+}
+
+.Posicionamiento_general .fijo{
+    position: fixed;
+    background-color: #00f;
+    right: 20%;
+    top: 3%;
+    color: #fff;
+    max-width: 10em;
+    border-radius: 10px;
+    
+}
+
+.Posicionamiento_flotante{
+    height: 25em;
+    width: 100%;
+}
+
+.Posicionamiento_flotante div{
+    float: left;
+}
+
+.Posicionamiento_flotante div:nth-child(2){
+    float: right;
+}
