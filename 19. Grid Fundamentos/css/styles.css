@@ -1,0 +1,40 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #eee;
+    color: #393e4d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.Titulo{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.grid{
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid #393e4d;
+    margin: auto;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.grid div{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    background-color: #2cbab5;
+    box-shadow: 1px 1px 3px #000;
+}
