@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    font-size: 2.4rem;
+    color: #eff0f1;
+    text-align: center;
+}
+
+
+.parrafo{
+    font-size: 1.6rem;
+    color: #eff0f1;
+    text-align: center;
+}
+
+.elemento{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+}
+
+.transladar{
+    background-color: #1aa9ed;
+    transform: translate(50px, -75px);
+}
+
+.escalar{
+    background-color: #00dd73;
+    transform: scale(0.5, 2);
+}
+
+
+.rotar{
+    background-color: #ef7f1a;
+    transform: rotate(150deg);
+}
+
+.deformar{
+    background-color: #d1308c;
+    transform: skew(1   0deg, 20deg);
+}
