@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.titulo{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer_texto{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.div-transicion{
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+    float: left;
+}
+
+.elemento1{
+    background-color: #1aa9ed;
+}
+
+.elemento1:hover{
+    background-color: #1707a7;
+    transform: rotate(130deg);
+}
+
+.elemento-transicion{
+    background-color: #00dd73;
+    transition: all 0.5s ease-in-out;
+}
+
+.elemento-transicion:hover{
+    background-color: #009137;
+    transform: rotate(130deg);
+
+}

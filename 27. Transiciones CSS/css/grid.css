@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+        "header header "
+        " main main"
+        "footer footer";
+    gap: 20px;
+}
+
+.header_grid{
+    grid-area: header;
+    background-color: #6ea9e4;
+    padding: 16px;
+    text-align: center;
+}
+
+.section_grid{
+    grid-area: main;
+    background-color: #e9ecef;
+    padding: 16px;
+}
+
+.footer_grid{
+    grid-area: footer;
+    background-color: #929799;
+    padding: 16px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer";
+    }
+    .header_grid, .section_grid, .footer_grid {
+        padding: 8px;
+    }
+}
